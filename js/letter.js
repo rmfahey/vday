@@ -6,7 +6,7 @@ $("#open").click(function(){
 	if(!aparted)
 	{
 		var typed = new Typed('.letter', {
-			strings: ["^1000Dear&nbsp;&nbsp;Abby", "アビー^200ちゃん<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;バレンタインデーは^300いつも^200寒いよね、^600でも、^600手を^200繋いでいると、^600暖か^200くなるよ！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;どんなに^300寒い夜も、^600君と^300二人でいれば、^600ちっとも^300寒くない！<br><br><p style='float:right; display:block; width:110px;'>^1000ジョージ^200より</p>"],
+			strings: ["^1000Dear&nbsp;&nbsp; Gail", "Dearest Darling Gail<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You are the love of my life,^300 and I want you to know, ^200 especially on Valentines Day,^600 that you are truly the most cherished person or thing in my life.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thank You for being my Wife, Lover, Friend and Partner!<br><br><p style='float:right; display:block; width:120px;'>^700Love^200 &nbsp;Alway^200<br>Bob</p>"],
 			typeSpeed: 100,
 			backSpeed: 50
 		});
@@ -19,7 +19,7 @@ $("#open").click(function(){
 		if (music.paused)
 		{
 			music.play();
-			$('#music_btn2').css("opacity", "1"); 
+			$('#music_btn2').css("opacity", "1");  
 		}
 	}
 	
